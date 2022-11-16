@@ -1,0 +1,32 @@
+body {
+    background-image: url(../Imagens/formacao_seja-forte-e-corajoso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monoespaçado;;
+    color: #070707;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.Frase {
+    background-color: #726a6a;
+    overflow: hidden;
+    width: 1300px;
+    padding: 10px;
+    margin: 0;
+    border: 5px solid rgb(37, 37, 37);
+    display: flex;
+    text-align: center;
+     
+}
+
+.panel-body {
+
+
+}
