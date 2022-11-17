@@ -1,32 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:ital,wght@1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= VT323 & display = swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@1,900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
 body {
+   font-size: 100%;
     background-image: url(../Imagens/formacao_seja-forte-e-corajoso.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 
-    font-family: 'VT323', monoespaçado;;
-    color: #070707;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 30px;
 }
 
-.Frase {
-    background-color: #726a6a;
-    overflow: hidden;
-    width: 1300px;
-    padding: 10px;
-    margin: 0;
-    border: 5px solid rgb(37, 37, 37);
+.frase.do.inicio {
+   
+    background-color:q wheat;
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center ;
+    border-style: double;
+    
+    
      
 }
 
-.panel-body {
+.texto.do.inicio{
+    font-family: 'VT323', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    
+    border-radius: 10px;
+    
+    
 
+}
+
+.texto1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    width: 10px;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 1300px;
+
+}
+
+.link.topo {
+   
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+
+   
+}
+.link {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px;
+    border: 1px groove #000;
+ 
+}
+ 
+
+.texto.escolha {
+    font-family: 'VT323', monospace;
+    padding-top: 10px;
+    text-align: center;
+    background-color:#975418;
+    border: 2px solid black;
+    border-radius: 20px 20px;;
+    
+
+}
+
+
+
+.titulo.da.receita {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    border-top: 1px solid black ;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.receita.pra.viver.melhor {
+
+ background-color:#df45ca;
+ padding: 10px;
+ margin-top: 10px;
+ text-align: center;
+ border-style: double;
+ border: 2px solid black;
+ border-radius: 30px 20px;
+ width: 1000px ;
+ ;
+ 
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ 
+
+ 
 
 }
