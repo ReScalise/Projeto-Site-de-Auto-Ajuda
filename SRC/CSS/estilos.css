@@ -4,7 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Noto+Serif:ital,wght@1,700 & family= Open+Sans:ital@1 & family= Roboto+Slab:wght@ 600 & família= Roboto:ital,wght@1,900 & display=swap');
 
+@import url('https://fonts.googleapis.com/css2? family= Noto+Serif:ital,wght@1,700 & family= Open+Sans:ital@1 & family= Roboto+Slab:wght@ 600 & família= Roboto:ital,wght@1,900 & display=swap');
 
 
 * {
@@ -26,8 +28,11 @@ body {
 }
 
 .frase.do.inicio {
-   
-    background-color:q wheat;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color:q rgb(202, 179, 137);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +47,7 @@ body {
 }
 
 .texto.do.inicio{
-    font-family: 'VT323', monospace;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,67 +86,119 @@ body {
 
 }
 
-.link.topo {
+.texto.escolha {
+    font-family: 'VT323', monospace;
+    padding-top: 10px;
+    text-align: center;
+    background-color:#dba06da1;
+    border: 2px solid rgb(44, 42, 42);
+    border-radius: 20px 20px;
+    
+    
+
+}
+
+.titulo.lista {
+    
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+ 
+    
    
+}
+
+.link.topo {
+
     display: flex;
-    flex-direction: row;
     gap: 30px;
     justify-content: center;
     padding: 30px;
-    margin: 20px;
+    margin: 10px 003px;
+    border-style: double 1px;
+    flex-direction: column;
+    text-align: center;
+    width: 500px ;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+   
 
    
 }
-.link {
+  
+.link { 
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     padding: 30px;
     border: 1px groove #000;
+    border-style: double 1px;
+    
  
 }
  
 
-.texto.escolha {
-    font-family: 'VT323', monospace;
-    padding-top: 10px;
-    text-align: center;
-    background-color:#975418;
-    border: 2px solid black;
-    border-radius: 20px 20px;;
+
+
+
+.metodo.tim {
+    color: black;
     
 
 }
 
+.site.apoio {
+    color: #000;
+   
+    
+}
 
+.play.musicas {
+    color: black;
+}
 
-.titulo.da.receita {
+.video.autoestima {
+    color: black
+    
+    
+}
+
+ .lista.de.apoio {
+    margin: auto;
+ }
+
+ .titulo.da.receita {
+    font-family: 'Noto Serif', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
     border-top: 1px solid black ;
     flex-direction: column;
     text-align: center;
+    margin-top: 10px;
+ 
 }
 
 
 .receita.pra.viver.melhor {
 
- background-color:#df45ca;
- padding: 10px;
- margin-top: 10px;
+ background-color: #f1b6817a;
+ padding: 10px 60px 10px 10px;
+ margin: 10px 10px 10px 10px;
  text-align: center;
  border-style: double;
  border: 2px solid black;
  border-radius: 30px 20px;
  width: 1000px ;
- ;
- 
+ margin-left: auto;
+ margin-right: auto;
+
  flex-direction: column;
  justify-content: space-around;
  align-items: center;
  
-
- 
-
 }
